@@ -23,13 +23,13 @@ import (
 func main() {
   // Look at the colours!
   fmt.Println(
-    (Black("Black")),
-    (Red("Red")),
-    (Yellow("Yellow")),
-    (Green("Green")),
-    (Blue("Blue")),
-    (Magenta("Magenta")),
-    (Cyan("Cyan")),
+    (chalk.Black("Black")),
+    (chalk.Red("Red")),
+    (chalk.Yellow("Yellow")),
+    (chalk.Green("Green")),
+    (chalk.Blue("Blue")),
+    (chalk.Magenta("Magenta")),
+    (chalk.Cyan("Cyan")),
     (White("White")),
   )
 }
