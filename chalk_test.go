@@ -14,14 +14,14 @@ func TestRed(t *testing.T) {
 	}
 }
 
-func TestYellow(t *testing.T) {
-	if Yellow("test") != "\033[32mtest\033[0m" {
+func TestGreen(t *testing.T) {
+	if Green("test") != "\033[32mtest\033[0m" {
 		t.Errorf("Expected true, got false")
 	}
 }
 
-func TestGreen(t *testing.T) {
-	if Green("test") != "\033[33mtest\033[0m" {
+func TestYellow(t *testing.T) {
+	if Yellow("test") != "\033[33mtest\033[0m" {
 		t.Errorf("Expected true, got false")
 	}
 }
