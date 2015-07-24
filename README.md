@@ -43,4 +43,4 @@ func main() {
 
 ### License
 
-MIT &copy; 2015 Ben Tranter
+Licensed under Apache 2.0. Copyright 2015 Ben Tranter. See license.md.
