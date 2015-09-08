@@ -7,7 +7,7 @@ Colour your terminal strings. Inspired by Node's [Chalk](https://github.com/chal
 Get the package:
 
 ```bash
-$ go get -u gitub.com/bentranter/chalk
+$ go get -u github.com/bentranter/chalk
 ```
 
 Use it:
