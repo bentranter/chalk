@@ -11,7 +11,7 @@
 //   fmt.Println(chalk.Blue("This is blue text!"))
 //
 //
-// Chnage the string's background colour
+// Change the string's background colour
 //
 // There are the same eight background colours. They can
 // be used by doing:
