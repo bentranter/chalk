@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println(chalk.Underline("Weiner"))
+	fmt.Println(chalk.Underline("test"))
 }

@@ -46,3 +46,43 @@ func White(s string) string {
 func Underline(s string) string {
 	return "\u001b[4m" + s + "\u001b[24m"
 }
+
+// BgBlack colours the background of your string black
+func BgBlack(s string) string {
+	return "\u001b[40m" + s + "\u001b[49m"
+}
+
+// BgRed colours the background of your string red
+func BgRed(s string) string {
+	return "\u001b[41m" + s + "\u001b[49m"
+}
+
+// BgGreen colours the background of your strinYellowreen
+func BgGreen(s string) string {
+	return "\u001b[42m" + s + "\u001b[49m"
+}
+
+// BgYellow colours the background of your string yellow
+func BgYellow(s string) string {
+	return "\u001b[43m" + s + "\u001b[49m"
+}
+
+// BgBlue colours the background of your string blue
+func BgBlue(s string) string {
+	return "\u001b[44m" + s + "\u001b[49m"
+}
+
+// BgMagenta colours the background of your string magenta
+func BgMagenta(s string) string {
+	return "\u001b[45m" + s + "\u001b[49m"
+}
+
+// BgCyan colours the background of your string cyan
+func BgCyan(s string) string {
+	return "\u001b[46m" + s + "\u001b[49m"
+}
+
+// BgWhite colours the background of your string white
+func BgWhite(s string) string {
+	return "\u001b[47m" + s + "\u001b[49m"
+}
