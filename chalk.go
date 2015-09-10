@@ -1,5 +1,33 @@
-// Package chalk lets you colour you
-// terminal string styles
+// Package chalk lets you colour your terminal string
+// styles. There are three things you can do so far:
+//
+//
+// Change the string's colour
+//
+// There are eight colours: black, red, green, yellow,
+// blue, magenta, cyan and white. They are extremely easy
+// to use:
+//
+//   fmt.Println(chalk.Blue("This is blue text!"))
+//
+//
+// Chnage the string's background colour
+//
+// There are the same eight background colours. They can
+// be used by doing:
+//
+//   fmt.Println(chalk.BgBlue("The background of this text is blue."))
+//
+//
+// Underline
+//
+// You can easily underline some text by doing:
+//
+//   fmt.Println(chalk.Underline("Here is some underlined text."))
+//
+// That's it! It's pretty simple, but I hope to add more
+// more styles and options in the near future.
+//
 package chalk
 
 // Black colours your string black
