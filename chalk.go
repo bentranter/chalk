@@ -41,3 +41,7 @@ func Cyan(s string) string {
 func White(s string) string {
 	return "\033[37m" + s + "\033[0m"
 }
+
+func Underline(s string) string {
+	return "\u001b[4m" + s + "\u001b[24m"
+}
