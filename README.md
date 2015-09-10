@@ -1,6 +1,7 @@
 # Chalk
 
 [![GoDoc](https://godoc.org/github.com/bentranter/chalk?status.svg)](https://godoc.org/github.com/bentranter/chalk)
+[![forthebadge](http://forthebadge.com/images/badges/gluten-free.svg)](http://forthebadge.com)
 
 Colour your terminal strings. Inspired by Node's [Chalk](https://github.com/chalk/chalk)
 
