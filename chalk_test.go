@@ -49,3 +49,9 @@ func TestWhite(t *testing.T) {
 		t.Errorf("Expected true, got false")
 	}
 }
+
+func TestUnderline(t *testing.T) {
+	if Underline("test") != "\u001b[4mtest\u001b[24m" {
+		t.Errorf("Expected true, got false")
+	}
+}
