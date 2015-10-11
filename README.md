@@ -40,6 +40,16 @@ func main() {
         (chalk.Cyan("Cyan")),
         (chalk.White("White")),
     )
+
+    // You can change the background colour too!
+    fmt.Println(
+        (chalk.BgBlue("My background is blue."))
+    )
+
+    // Or underline words
+    fmt.Println(
+        (chalk.Underline("I'm underlined!"))
+    )
 }
 ```
 
