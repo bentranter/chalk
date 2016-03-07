@@ -2,6 +2,8 @@
 
 [![GoDoc](https://godoc.org/github.com/bentranter/chalk?status.svg)](https://godoc.org/github.com/bentranter/chalk)
 
+[![Build Status](https://semaphoreci.com/api/v1/bentranter/chalk/branches/master/badge.svg)](https://semaphoreci.com/bentranter/chalk)
+
 Colour your terminal strings. Inspired by Node's [Chalk](https://github.com/chalk/chalk)
 
 ### Features
