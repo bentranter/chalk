@@ -30,6 +30,17 @@
 //
 package chalk
 
+type colourable interface {
+	Black(s string) string
+	Red(s string) string
+	Green(s string) string
+	Yellow(s string) string
+	Blue(s string) string
+	Magenta(s string) string
+	Cyan(s string) string
+	White(s string) string
+}
+
 // Black colours your string black
 func Black(s string) string {
 	return "\033[30m" + s + "\033[0m"
