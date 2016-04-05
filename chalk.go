@@ -30,15 +30,12 @@
 //
 package chalk
 
-type colourable interface {
-	Black(s string) string
-	Red(s string) string
-	Green(s string) string
-	Yellow(s string) string
-	Blue(s string) string
-	Magenta(s string) string
-	Cyan(s string) string
-	White(s string) string
+type fg string
+type bg string
+type ul string
+
+func (f *fg) BgRed(s string) string {
+	return BgRed(Red(s))
 }
 
 // Black colours your string black
