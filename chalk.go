@@ -30,14 +30,6 @@
 //
 package chalk
 
-type fg string
-type bg string
-type ul string
-
-func (f *fg) BgRed(s string) string {
-	return BgRed(Red(s))
-}
-
 // Black colours your string black
 func Black(s string) string {
 	return "\033[30m" + s + "\033[0m"
