@@ -10,8 +10,6 @@ Colour your terminal strings. Inspired by Node's [Chalk](https://github.com/chal
 
 1. The eight default terminal colours
 
-If you want more features, like bold colours or windows support, open an issue or send a PR!
-
 ### Usage
 
 Get the package:
